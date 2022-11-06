@@ -3,7 +3,7 @@
   height: 25px;
   background: url('../../../images/Vector.svg') no-repeat center;
   background-size: 22px 19px;
-  border: 1px solid white ;
+  border: 1px solid white;
 }
 
 .button_type_like:focus {

@@ -6,7 +6,6 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__line/header__line.css);
 
-
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__about/profile__about.css);
 @import url(../blocks/profile/__avatarka/profile__avatarka.css);
@@ -29,9 +28,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-
-
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__title/popup__title.css);
@@ -39,14 +35,3 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__form-input/popup__form-input.css);
 @import url(../blocks/popup/__form-profile/popup__form-profile.css);
-@import url(../blocks/popup);
-
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-
-
-
-/* * {
-  border: 1px solid red;
-} */
