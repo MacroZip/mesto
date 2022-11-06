@@ -1,0 +1,12 @@
+.profile__avatarka {
+  margin-right: 30px;
+  border-radius: 50%;
+  grid-area: ava;
+}
+
+@media (max-width: 768px) {
+  .profile__avatarka {
+    margin: auto;
+    max-width: 169px;
+  }
+}

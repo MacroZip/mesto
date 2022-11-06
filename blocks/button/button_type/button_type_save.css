@@ -1,0 +1,27 @@
+.button_type_save {
+  margin-top: 48px;
+  padding: 14px 0 14px 0;
+  min-width: 358px;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 2px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.button_type_save:hover {
+  opacity: .8;
+}
+
+@media (max-width: 617px) {
+  .button_type_save {
+    margin-top: 45px;
+    padding: 13px 0 13px 0;
+    min-width: 238px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

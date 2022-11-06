@@ -1,0 +1,17 @@
+.profile__about {
+  margin-top: 8px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  grid-area: about;
+  align-self: start;
+}
+
+@media (max-width: 768px) {
+  .profile__about {
+    text-align: center;
+  }
+}

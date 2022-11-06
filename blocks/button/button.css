@@ -1,0 +1,6 @@
+.button:hover {
+  transition: 0.5s;
+  opacity: .5;
+  box-sizing: border-box;
+  cursor: pointer;
+}

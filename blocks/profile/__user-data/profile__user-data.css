@@ -1,0 +1,22 @@
+.profile__user-data {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 150px auto 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "ava name edit-button add_button"
+    "ava about about add_button";
+}
+
+@media (max-width: 768px) {
+  .profile__user-data {
+    margin-top: 32px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "ava ava"
+    "name edit-button"
+    "about about"
+    "add_button add_button";
+  }
+}

@@ -1,0 +1,12 @@
+.button_type_like {
+  width: 28px;
+  height: 25px;
+  background: url('../../../images/Vector.svg') no-repeat center;
+  background-size: 22px 19px;
+  border: 1px solid white ;
+}
+
+.button_type_like:focus {
+  background-image: url('../../../images/like_black.svg');
+  background-size: 22px 19px;
+}
