@@ -5,7 +5,7 @@
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "ava name edit-button add_button"
-    "ava about about add_button";
+    "ava about edit-button add_button";
 }
 
 @media (max-width: 768px) {
