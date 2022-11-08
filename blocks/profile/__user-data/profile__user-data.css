@@ -10,13 +10,13 @@
 
 @media (max-width: 768px) {
   .profile__user-data {
-    margin-top: 32px;
+    margin-top: 42px;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-    "ava ava"
-    "name edit-button"
-    "about about"
-    "add_button add_button";
+    ". ava ava ."
+    ". name edit-button ."
+    ". about about ."
+    ". add_button add_button .";
   }
 }

@@ -7,3 +7,12 @@
     margin: 0 19px;
   }
 }
+
+@media (max-width: 960px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+

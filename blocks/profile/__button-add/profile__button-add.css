@@ -20,14 +20,14 @@
     margin: 7px 19px 0;
     width: 100%;
     max-width: 30%;
-    min-width: 20%;
     background: url(../../../images/btn_add-mobile.svg) no-repeat center;
     justify-self: center;
   }
 }
 
-@media (max-width: 633px) {
+@media (max-width: 768px) {
   .profile__button-add {
-    min-width: 100%;
+    min-width: 282px;
+    margin: 18px 0 0;
   }
 }

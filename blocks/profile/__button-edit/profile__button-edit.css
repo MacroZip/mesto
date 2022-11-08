@@ -5,13 +5,20 @@
   box-sizing: border-box;
   background: url(../../../images/Edit_Button.svg) no-repeat center;
   border: 1px solid white;
-  /* align-self: end; */
   grid-area: edit-button;
 }
 
 @media (max-width: 960px) {
   .profile__button-edit {
-
+    margin: 29px 18px 0;
     text-align: end;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile__button-edit {
+    margin: 34px 0 0 10px;
+    max-width: 18px;
+    max-height: 18px;
   }
 }

@@ -16,5 +16,7 @@
 @media (max-width: 768px) {
   .profile__about {
     text-align: center;
+    font-size: 14px;
+    line-height: 17px;
   }
 }
