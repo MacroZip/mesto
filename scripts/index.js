@@ -8,16 +8,16 @@ const openProfileEdit = document.querySelector('.profile__button-edit');
 const profileName = document.querySelector('.profile__name');
 const profileAbout = document.querySelector('.profile__about');
 
-const formInputName = document.querySelector('.popup__input_name');
-const formInputAbout = document.querySelector('.popup__input_about');
+const formInputName = document.querySelector('.popup_name');
+const formInputAbout = document.querySelector('.popup_about');
 
 
 function openPopup() {
-  popup.classList.add('popup__opened')
+  popup.classList.add('popup_opened')
 };
 
 function closePopup() {
-  popup.classList.remove('popup__opened')
+  popup.classList.remove('popup_opened')
 };
 
 function addValue() {
