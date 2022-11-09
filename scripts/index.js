@@ -8,8 +8,8 @@ const openProfileEdit = document.querySelector('.profile__button-edit');
 const profileName = document.querySelector('.profile__name');
 const profileAbout = document.querySelector('.profile__about');
 
-const formInputName = document.querySelector('.popup_name');
-const formInputAbout = document.querySelector('.popup_about');
+const formInputName = document.querySelector('.popup_type_name');
+const formInputAbout = document.querySelector('.popup_type_about');
 
 
 function openPopup() {

@@ -5,3 +5,7 @@
   border-radius: 10px;
   background-color: #FFFFFF;
 }
+
+.elements__item:hover {
+  opacity: 0.8;
+}
