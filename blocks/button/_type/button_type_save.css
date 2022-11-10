@@ -1,6 +1,6 @@
 .button_type_save {
   margin-top: 48px;
-  padding: 14px 0 14px 0;
+  padding: 15px 0 15px 0;
   min-width: 358px;
   color: white;
   background-color: black;
@@ -19,7 +19,6 @@
 @media (max-width: 617px) {
   .button_type_save {
     margin-top: 45px;
-    padding: 13px 0 13px 0;
     min-width: 238px;
     font-size: 14px;
     line-height: 17px;

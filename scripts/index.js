@@ -1,6 +1,6 @@
 const popup = document.querySelector('.popup');
 
-const popupForm = document.querySelector('.popup__form');
+const popupForm = document.querySelector('.form');
 
 const closeProfileBtn = document.querySelector('.button_type_close');
 
@@ -8,8 +8,8 @@ const openProfileEdit = document.querySelector('.profile__button-edit');
 const profileName = document.querySelector('.profile__name');
 const profileAbout = document.querySelector('.profile__about');
 
-const formInputName = document.querySelector('.popup_type_name');
-const formInputAbout = document.querySelector('.popup_type_about');
+const formInputName = document.querySelector('.form__input_type_name');
+const formInputAbout = document.querySelector('.form__input_type_about');
 
 
 function openPopup() {
@@ -26,7 +26,6 @@ function addValue() {
 };
 
 function addValueProfile(event) {
-
   profileName.textContent = formInputName.value;
   profileAbout.textContent = formInputAbout.value;
   event.preventDefault();
