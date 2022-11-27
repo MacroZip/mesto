@@ -120,6 +120,7 @@ function handleAddNewCard(event) {
 
 elemAddBtn.addEventListener("click", () => {
   openPopup(popupAddElement);
+  newElement.reset();
 });
 
 popups.forEach((popup) => {
@@ -129,7 +130,7 @@ popups.forEach((popup) => {
       event.target.classList.contains("popup_opened")
     ) {
       closePopup(popup);
-      newElement.reset();
+
     }
   });
 });
