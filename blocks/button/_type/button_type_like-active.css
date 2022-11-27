@@ -1,0 +1,4 @@
+.button_type_like-active {
+    background-image: url('../../../images/like_black.svg');
+    background-size: 22px 19px;
+}

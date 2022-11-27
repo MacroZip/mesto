@@ -1,0 +1,12 @@
+.button_type_elementClose {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 19px;
+    background: no-repeat center/contain url('../../../images/elementTrash.svg');
+    border: none;
+    cursor: pointer;
+  }
